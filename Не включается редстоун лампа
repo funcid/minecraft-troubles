@@ -1,0 +1,3 @@
+Когда вы размещаете REDSTONE_LAMP_ON, он сразу же выключается, 
+поэтому в BlockRedstoneEvent нужно игнорировать этот блок
+(newCurrent = oldCurrent)
